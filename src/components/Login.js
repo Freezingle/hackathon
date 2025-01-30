@@ -33,7 +33,7 @@ function Login() {
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
               <button>Sign Up</button>
-              <p>Already have an id? <a onClick = {toggleForm}> Sign In </a></p>
+              <p class="mobile">Already have an id? <a onClick = {toggleForm}> Sign In </a></p>
 
             </form>
           </div>
@@ -58,7 +58,7 @@ function Login() {
               <input type="password" placeholder="Password" />
               <a href="#">Forgot your password?</a>
                 <button>Sign In</button>
-                <p>Donot have an Id? <a onClick={toggleForm}>Sign Up</a></p>
+                <p class= "mobile">Donot have an Id? <a onClick={toggleForm}>Sign Up</a></p>
             </form>
           </div>
   

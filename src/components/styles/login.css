@@ -225,6 +225,10 @@ input {
 	height: 40px;
 	width: 40px;
 }
+ 
+ .mobile{
+    display:none;
+ }
 
 @media screen and (max-width: 480px) {
     body {
@@ -250,10 +254,11 @@ input {
         opacity: 1;
         z-index: 1;
     }
-    .sign-in-container{
-        
-    }
+   
     .overlay-container{
         display:none;
+    }
+    .mobile{
+        display:block;
     }
 }
